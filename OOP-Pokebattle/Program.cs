@@ -16,13 +16,13 @@ namespace OOP_Pokebattle
             //battle commands
             Pika.AttackPokemon(Char, "Pika Punch");
             Char.AttackPokemon(Pika, "Flare");
-            Console.WriteLine(Pokemon.GetPopulation() + " pokemon are alive\n");
             Pika.AttackPokemon(Char, "Thunderbolt");
             Char.AttackPokemon(Pika, "Earthquake");
-            Console.WriteLine(Pokemon.GetPopulation() + " pokemon are alive\n");
             Pika.AttackPokemon(Char, "Electric Ring");
             Char.AttackPokemon(Pika, "Flare");
             Pika.AttackPokemon(Char, "Pika Punch");
+
+            Console.WriteLine(Pokemon.ReturnBattle());
         }
     }
 }

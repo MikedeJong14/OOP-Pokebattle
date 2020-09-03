@@ -11,7 +11,7 @@ namespace OOP_Pokebattle
             new List<Attack>() {
                 new Attack("Head Butt", 10, "Fighting"),
                 new Attack("Flare", 30, "Fire"),
-                new Attack("Earthquake", 60, "Earth")
+                new Attack("Earthquake", 40, "Earth")
             },
             new Weakness("Water", 2),
             new Resistance("Lightning", 10))
